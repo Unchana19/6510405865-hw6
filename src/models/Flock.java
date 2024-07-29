@@ -13,8 +13,17 @@ public class Flock implements Quackable {
     @Override
     public void quack() {
         System.out.println("---Flock---");
+        boolean first = true;
         for (Quackable q : quackers) {
-            q.quack();
+            if (first) {
+                for (int i = 0; i < 3; i++) {
+                    q.quack();
+                }
+                first = false;
+            } else {
+                q.quack();
+            }
         }
     }
+
 }
