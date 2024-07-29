@@ -40,3 +40,5 @@ public class DuckSimulator {
         duck.quack();
     }
 }
+
+//6510405865 Oanchana Changcharoen

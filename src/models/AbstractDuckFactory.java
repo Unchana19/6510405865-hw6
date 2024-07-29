@@ -6,3 +6,5 @@ public abstract class AbstractDuckFactory {
     public abstract Quackable createDuckCall();
     public abstract Quackable createRubberDuck();
 }
+
+//6510405865 Oanchana Changcharoen
